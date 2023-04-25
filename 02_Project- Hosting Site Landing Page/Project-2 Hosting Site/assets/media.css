@@ -1,0 +1,40 @@
+/* 1200 992 768 600 */
+
+
+/* Mobile Device */
+@media screen and (max-width:600px) {
+    nav ul {
+        display: none;
+    }
+
+    .logimg img {
+        width: 70%;
+    }
+    .login-btn {
+        font-size: 0.75rem;
+        padding: 3px 20px;
+    }
+    #belowNav{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 40px;
+    }
+    #headingFirst{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #headingFirst h1{
+        font-weight: 200;
+        font-size: 10vmin;
+        width: 100%;
+    }
+    #headingFirst p{
+        font-size: 4vmin;
+        width: 100%;
+    } 
+    #btnsec{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+} 
