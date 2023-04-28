@@ -1,0 +1,647 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* html,body{
+    overflow: hidden;
+} */
+header {
+    background-color: rgb(20, 17, 17);
+}
+
+/* Navigation section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0 2px;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 20px;
+    font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0c8bfd;
+    font-weight: 500;
+}
+
+.login-btn {
+    color: white;
+    background-color: #0c8bfd;
+    border: 1px solid #0c8bfd;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 3px 25px;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-nav {
+    display: flex;
+    gap: 10px;
+}
+
+/* Below Nav section */
+#belowNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+#headingFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 100%;
+}
+
+#rightimg img {
+    max-width: 100%;
+}
+
+#headingFirst h1 span {
+    color: #0c8bfd;
+}
+
+#headingFirst h1 {
+    color: #f5f5f5;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 500px;
+}
+
+#headingFirst p {
+    color: rgb(193, 175, 175);
+    font-size: 1.1rem;
+    width: 430px;
+}
+
+#btnsec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.firstBtn button {
+    background-color: #0c8bfd;
+    border: 1px solid #0c8bfd;
+    color: beige;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+
+.firstBtn button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.secondBtn button {
+    background-color: black;
+    color: beige;
+    font-size: 1.3rem;
+    border: 1px solid #dce7e7;
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+
+.secondBtn button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 3px dashed rgb(17, 16, 16);
+}
+
+/* Logo section */
+#logosection {
+    background-color: #423a3a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#logosection img {
+    padding: 10px;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+#headipara {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#headipara h2 {
+    font-size: 10vmin;
+    font-weight: 500;
+}
+
+#headipara p {
+    font-size: 5vmin;
+    color: #959e9e;
+    margin-top: 30px;
+}
+
+#threeBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.boxsetting {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 350px;
+    font-weight: 400;
+    position: relative;
+}
+
+.boxsetting figcaption {
+    font-size: 4vmin;
+}
+
+.boxsetting p {
+    font-size: 3vmin;
+}
+
+#secBox {
+    position: absolute;
+    bottom: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#firstBox:hover {
+    transform: scale(1.2, 1.1);
+}
+
+#secBox:hover {
+    transform: scale(1.2, 1.1);
+}
+
+#thirBox:hover {
+    transform: scale(1.2, 1.1);
+}
+
+/* Thirs Page */
+#headline h2 {
+    font-size: 8vmin;
+}
+
+.thirdpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#listbox {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+#firtlistBox div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 3vmin;
+    margin: 25px 15px;
+}
+
+.bgcol {
+    background-color: #0c8bfd;
+    color: whitesmoke;
+    border-color: 1px solid #0c8bfd;
+}
+
+#secondlistBox {
+    font-size: 20px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#secondlistBox div {
+    background-color: #423a3a;
+    border: 1px solid #423a3a;
+    border-radius: 20px;
+    margin: 7px 5px;
+    display: flex;
+    align-items: center;
+    font-size: 2vmin;
+    gap: 20px;
+    padding: 0 10px;
+}
+/* Card */
+.fourthpage{
+    background-color: #423a3a;
+    padding-bottom: 50px;
+}
+#headpart{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+#headpart h2{
+    font-size: 9vmin;
+    color: white;
+}
+#headpart img{
+    position: relative;
+    top: 50px;
+}
+/* Three Box */
+#threebox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+/* First Box */
+#one{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    gap: 15px;
+}
+.cost{
+    font-size: 6vmin;
+}
+.cost sub{
+    color: rgb(169, 155, 155);
+    font-weight: 400;
+}
+#one h4{
+    font-size: 2vmin;
+    width: 300px;
+}
+#straightline{
+    height: 2px;
+    width: 300px;
+    background-color:#423a3a;
+}
+#list1 h3{
+    margin: 20px 0;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+}
+#onebutton button{
+    background-color:#0c8bfd;
+    border: 1px solid #0c8bfd;
+    border-color: #0c8bfd;
+    color: aliceblue;
+    border-color: #0c8bfd;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 5px 120px ;
+}
+#onebutton button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+/* Second Box */
+#two{
+    background-color:#0c8bfd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    gap: 15px;
+}
+.cost{
+    font-size: 6vmin;
+}
+.cost sub{
+    color: rgb(169, 155, 155);
+    font-weight: 400;
+}
+#two h4{
+    font-size: 2vmin;
+    width: 250px;
+    color: white;
+}
+#straightline{
+    height: 2px;
+    width: 300px;
+    background-color:#dbcaca;
+}
+#list2 h3{
+    margin: 20px 0;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+#twobutton button{
+    background-color:#e2ebf4;
+    border: 1px solid #0c8bfd;
+    border-color: #0c8bfd;
+    color: rgb(45, 48, 50);
+    border-color: #0c8bfd;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 5px 120px ;
+}
+#twobutton button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+/* Third Box */
+#three{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    gap: 15px;
+}
+.cost{
+    font-size: 6vmin;
+}
+.cost sub{
+    color: rgb(169, 155, 155);
+    font-weight: 400;
+}
+#three h4{
+    font-size: 2vmin;
+    width: 270px;
+}
+#straightline{
+    height: 2px;
+    width: 300px;
+    background-color:#423a3a;
+}
+#list3 h3{
+    margin: 20px 0;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+}
+#threebutton button{
+    background-color:#0c8bfd;
+    border: 1px solid #0c8bfd;
+    border-color: #0c8bfd;
+    color: aliceblue;
+    border-color: #0c8bfd;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 5px 120px ;
+}
+#threebutton button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+/* Fifth Page */
+#firstsectio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 50px;
+}
+#firstsectio h2{
+    font-size: 10vmin;
+    width: 50%;
+}
+#firstsectio p{
+    font-size: 3vmin;
+    width: 500px;
+}
+/* One Box */
+#twobox{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.item{
+}
+/* One Box */
+#onebox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: #423a3a;
+    color: white;
+    padding: 10px 10px;
+}
+#onebox p{
+    width: 420px;
+    font-size: 3vmin;
+}
+/* Two Box */
+#secondbox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: #f0e3e3;
+    color: rgb(18, 14, 14);
+    padding: 10px 10px;
+}
+#secondbox p{
+    width: 420px;
+    font-size: 3vmin;
+}
+/* Third Box */
+#thirdbox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: #f0e3e3;
+    color: rgb(18, 14, 14);
+    padding: 10px 10px;
+}
+#thirdbox p{
+    width: 420px;
+    font-size: 3vmin;
+}
+/* Third Box */
+#fourbox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: #f0e3e3;
+    color: rgb(18, 14, 14);
+    padding: 10px 10px;
+}
+#fourbox p{
+    width: 420px;
+    font-size: 3vmin;
+}
+
+/* Sixth Page */
+#sixth{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#headinsection{
+    margin-top: 50px;
+}
+#headinsection h2{
+    /* margin-top: 50px; */
+    font-size: 10vmin;
+    font-weight: 500;
+}
+/* Signup Form */
+#signup{
+    margin-top: 25px;
+    background-color: #586060;
+    border: 1px solid #586060;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+#signup input{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #2b3131;
+    border: 1px solid #2b3131;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+#signup input::placeholder{
+    color: rgb(148, 140, 140);
+    font-weight: 200;
+}
+.signbtn{
+    background-color: #0c8bfd;
+    color: white;
+    border: 1px solid #0c8bfd;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.signbtn:hover{
+    background-color: #2b3131;
+    color: white;
+    border: 1px solid white;
+}
+#line2{
+    margin: 30px auto;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(110, 102, 102);
+}
+/* Footer  */
+#fotterbase{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#fotterbase:hover{
+    font-weight: 1000;
+}
+.footcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.footcol h3{
+    color: #dbcaca;
+    font-weight: 1000;
+}
+
+#baseimg{
+    background-color: black;
+    padding-top: 25px;
+}
